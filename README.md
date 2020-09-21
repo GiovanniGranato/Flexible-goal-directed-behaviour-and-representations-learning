@@ -12,11 +12,11 @@ In particular this repository contains the code of GEMMA (Generativity-based Emb
 
 - A goal-monitoring component, formed by a simple function that executes an euclidean distance, that computes the reward depending on a distance between the goal action and the executed action.
 
-Despite for now the architecture acts in a virtual world, it shows an embodied nature because has all components that allow its to interact with a virtual enviroment and to change its perception depending on these interactions. Moreover GEMMA is "ready to be linked" to a a Kuka robot with few tecnical adaptations.
+Despite for now the architecture acts in a virtual world, it shows an embodied nature because has all components that allow its to interact with a virtual enviroment and to change its perception depending on these interactions, and then improving its interactions with the world. Moreover GEMMA is "ready to be linked" to a a Kuka robot with few tecnical adaptations.
 
 The repository is organized in this way:
 
--- Main:                                   # Main file to run many training enviroments and to execute many tests on the generative model (see the documentation of Main function)
+-- Main:                                   # Main file to run the training enviroments and to execute many tests on the generative model (see the documentation of Main function)
 
 -- Environments                         # Training enviroments (training of a single RBM, training of GEMMA, utility test of internal representations)
 
@@ -24,5 +24,12 @@ The repository is organized in this way:
 
 -- Basic_functions                      # Basic functions such as save/load functions, weights_initialization, layers activations etc
 
+-- Weights_layers_activations           # Folder that contains the saved weights of the generative model
+
+-- Training_Visual_Outputs              # Folder that contains the visual output of the training that is taking place (learning curves, rewards, internal represetnations etc)
+
+-- Training_data                        # Folder that contains the data of training of generative model (without other components) or the GEMMA
+
+-- Tester_data                          # Folder that contains the utility test data (see documentation of the function "utility test" in "Enviroments.py")
 
 

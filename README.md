@@ -35,4 +35,9 @@ The repository is organized in this way:
 ![alt text] (https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/GEMMA.jpg?raw=true)
 raw=true "Title")
 
+<p align="center">
+  <img src="https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/GEMMA.jpg?raw=true" width="350" title="hover text">
+  <img src="https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/GEMMA.jpg?raw=true" width="350" alt="accessibility text">
+</p>
+
 

@@ -32,9 +32,8 @@ The repository is organized in this way:
 
 -- Tester_data                          # Folder that contains the utility test data (see documentation of the function "utility test" in "Enviroments.py")
 
-!Schema of GEMA (relative/path/to/GEMMA.jpg?raw=true "GEMMA")
-
-![alt text](https://github.com/GiovanniGranato/
+!Schema of GEMA (https://github.com/GiovanniGranato/
 Flexible-goal-directed-behaviour-and-representations-learning/blob/master/GEMMA.jpg?raw=true)
+
 
 

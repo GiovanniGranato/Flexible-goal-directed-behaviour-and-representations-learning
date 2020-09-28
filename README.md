@@ -8,11 +8,11 @@ In particular this repository contains the code of GEMMA (Generativity-based Emb
 
 - A controller, formed by a RL-based perceptron, that learns to execute an action depending on the manipulated world state that receives from the sensory component and the feedback obtained from the world (reward)
 
-- An evaluator component, formed by a multi-layer perceptron, that learns to predict the reward that the agent will obtain depending on a specific state of the world.
-
 - A goal-monitoring component, formed by a simple function that executes an euclidean distance, that computes the reward depending on a distance between the goal action and the executed action.
 
-Despite for now the architecture acts in a virtual world, it shows an embodied nature because has all components that allow its to interact with a virtual enviroment and to change its perception depending on these interactions, and then improving its interactions with the world. Moreover GEMMA is "ready to be linked" to a a Kuka robot with few tecnical adaptations.
+- An evaluator component, formed by a multi-layer perceptron that learns to predict the reward that the agent will obtain depending on a specific state of the world, an an equation that computes the difference between the obtained reward and the predicted reward (surprise).
+
+Despite for now the architecture acts in a virtual world, it shows an embodied nature because has all components that allow its to interact with a virtual enviroment and to change its perception depending on these interactions, and then improving its interactions with the world. Moreover GEMMA is "ready to be linked" to a a Kuka robot (camera and arm) with few tecnical adaptations.
 
 The repository is organized in this way:
 

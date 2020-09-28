@@ -36,5 +36,8 @@ The repository is organized in this way:
 <p align="center">
   <img src="https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/Functional_schema_GEMMA.jpg?raw=true" width="1000" title="hover text">
 </p>
+<p align="center">
+  <img src="https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/Computational_schema_GEMMA.jpg?raw=true" width="1000" title="hover text">
+</p>
 
 

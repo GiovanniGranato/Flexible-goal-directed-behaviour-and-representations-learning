@@ -34,7 +34,7 @@ The repository is organized in this way:
 
 
 <p align="center">
-  <img src="https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/Functional_schema_Generativity-based  Embodied Manipulative Architecture (GEMMA)?raw=true" width="1000" title="hover text">
+  <img src="https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/Functional_schema_GEMMA?raw=true" width="1000" title="hover text">
 </p>
 
 

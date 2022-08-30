@@ -1,8 +1,8 @@
 # Flexible-goal-directed-behaviour-and-representations-learning
 
-This project investigates the relation between representation learning, i.e. how the brain of an embodied agent can acquire efficient perceptual representationsof the world, and flexible goal-directed behaviour.
+This project investigates the brain processes integrationg reinforcement learning and unsupervised learning during the emergence of human catgorical perception.
 
-In particular this repository contains the code of GEMMA (Generativity-based Embodied Manipulative Architecture), a neurorobotic architecture used here as a computational model of the brain to approach the research topic and study this phenomenon. 
+In particular this repository contains the code of a computational model used to investigate the main topic in Granato et al. (2022). 
 
 <p align="center">
   <img src="https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/Functional_schema_GEMMA.jpg?raw=true" width="1000" title="hover text">
@@ -41,3 +41,7 @@ The repository is organized in this way:
 -- Training_data                        # Folder that contains the data of training of generative model (without other components) or the GEMMA
 
 -- Tester_data                          # Folder that contains the utility test data (see documentation of the function "utility test" in "Enviroments.py")
+
+
+Granato G, Cartoni E, Da Rold F, Mattera A, Baldassarre G (2022) Integrating unsupervised and reinforcement learning in human categorical perception: A computational model. PLoS ONE 17(5): e0267838. (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0267838)
+

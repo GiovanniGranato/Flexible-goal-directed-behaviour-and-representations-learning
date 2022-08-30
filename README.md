@@ -1,6 +1,6 @@
 # Flexible-goal-directed-behaviour-and-representations-learning
 
-This project investigates the brain processes integrationg reinforcement learning and unsupervised learning during the emergence of human catgorical perception.
+This project investigates the brain processes integrating reinforcement learning and unsupervised learning during the emergence of human catgorical perception.
 
 In particular this repository contains the code of a computational model used to investigate the main topic in Granato et al. (2022). 
 
@@ -8,7 +8,7 @@ In particular this repository contains the code of a computational model used to
   <img src="https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/Functional_schema_GEMMA.jpg?raw=true" width="1000" title="hover text">
 </p>
 
-The model is able to develop an action-depending perception (i.e. to develop a perceptual representation of salient features of the world) adapt to execute a "goal-directed action", trough the exploitation a deep generative model trained with a novel learning rule that hibridates an unsupervised algorythm (Contrastive Divergence; Hinton 2006) and a reinforcement learning algorythm (REINFORCE; Williams, 1995). The architecture is composed by many neuro-inspired components (see figure), such as:
+The model is able to develop a task-directed categorical perception (i.e. to develop a perceptual representation of salient features of the world) adapt to execute a "goal-directed action", trough the exploitation a deep generative model trained with a novel learning rule that hibridates an unsupervised algorythm (Contrastive Divergence; Hinton 2006) and a reinforcement learning algorythm (REINFORCE; Williams, 1995). The architecture is composed by many neuro-inspired components (see figure), such as:
 
 - A sensory component, formed by a generative model (a Deep Belief Network formed by two stacked Restricted Boltzmann Machines; Hinton, 2006; Hinton, 2012), that learns to extract the visual regularities in the world and to execute a dimensional reduction, also influenced by the efficacy of the agent's actions in the world (reward).
 

@@ -6,19 +6,19 @@ In particular this repository contains the code of a computational model used to
 
 <p align="center">
   Theoretical model
-  <img src="https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/MCP.png?raw=true" width="1000" title="hover text">
+  <img src="https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/MCP.PNG?raw=true" width="1000" title="hover text">
 </p>
 
 
 <p align="center">
 Computational model (functional schema)
-  <img src="https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/FunctionalSchema.png?raw=true" width="1000" title="hover text">
+  <img src="https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/FunctionalSchema.PNG?raw=true" width="1000" title="hover text">
 </p>
 
 
 <p align="center">
 Computational model (computational schema)
-  <img src="https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/computationalSchema.png?raw=true" width="1000" title="hover text">
+  <img src="https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/computationalSchema.PNG?raw=true" width="1000" title="hover text">
 </p>
 
 The model is able to develop a task-directed categorical perception (i.e. to develop a perceptual representation of salient features of the world) adapt to execute a "goal-directed action", trough the exploitation a deep generative model trained with a novel learning rule that hibridates an unsupervised algorythm (Contrastive Divergence; Hinton 2006) and a reinforcement learning algorythm (REINFORCE; Williams, 1995). The architecture is composed by many neuro-inspired components (see figure), such as:
@@ -31,11 +31,7 @@ The model is able to develop a task-directed categorical perception (i.e. to dev
 
 - An evaluator component, formed by a multi-layer perceptron that learns to predict the reward that the agent will obtain depending on a specific state of the world, an an equation that computes the difference between the obtained reward and the predicted reward (surprise).
 
-Despite for now the architecture acts in a virtual world, it shows an embodied nature because has all components that allow its to interact with a virtual enviroment and to change its perception depending on these interactions, and then improving its interactions with the world. Moreover GEMMA is "ready to be linked" to a a Kuka robot (camera and arm) with few tecnical adaptations.
-
-<p align="center">
-  <img src="https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/Computational_schema_GEMMA.jpg?raw=true" width="1000" title="hover text">
-</p>
+Despite for now the architecture acts in a virtual world, it shows an embodied nature because has all components that allow its to interact with a virtual enviroment and to change its perception depending on these interactions, and then improving its interactions with the world. This computational model could be "ready to be linked" to a a Kuka robot (camera and arm) with few tecnical adaptations.
 
 The repository is organized in this way:
 

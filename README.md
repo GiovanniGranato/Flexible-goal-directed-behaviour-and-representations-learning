@@ -1,6 +1,6 @@
 # Flexible-goal-directed-behaviour-and-representations-learning
 
-This project investigates the brain processes integrating reinforcement learning and unsupervised learning during the emergence of human catgorical perception.
+This project investigates the brain processes integrating reinforcement learning and unsupervised learning during the emergence of human categorical perception.
 
 In particular this repository contains the code of a computational model used to investigate the main topic in Granato et al. (2022). 
 

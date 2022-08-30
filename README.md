@@ -5,7 +5,20 @@ This project investigates the brain processes integrating reinforcement learning
 In particular this repository contains the code of a computational model used to investigate the main topic in Granato et al. (2022). 
 
 <p align="center">
-  <img src="https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/Functional_schema_GEMMA.jpg?raw=true" width="1000" title="hover text">
+  Theoretical model
+  <img src="https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/MCP.png?raw=true" width="1000" title="hover text">
+</p>
+
+
+<p align="center">
+Computational model (functional schema)
+  <img src="https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/FunctionalSchema.png?raw=true" width="1000" title="hover text">
+</p>
+
+
+<p align="center">
+Computational model (computational schema)
+  <img src="https://github.com/GiovanniGranato/Flexible-goal-directed-behaviour-and-representations-learning/blob/master/computationalSchema.png?raw=true" width="1000" title="hover text">
 </p>
 
 The model is able to develop a task-directed categorical perception (i.e. to develop a perceptual representation of salient features of the world) adapt to execute a "goal-directed action", trough the exploitation a deep generative model trained with a novel learning rule that hibridates an unsupervised algorythm (Contrastive Divergence; Hinton 2006) and a reinforcement learning algorythm (REINFORCE; Williams, 1995). The architecture is composed by many neuro-inspired components (see figure), such as:
